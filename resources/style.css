@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51); 
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+  .text{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 15px;
+  }
+
+  .name{
+    color: rgb(80, 80, 80);
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+.social-buttons {
+    display: flex;
+    justify-content: center; 
+}
+  
+.social-link {
+    margin-right: 10px;
+    text-decoration: none; 
+}
+  
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #efe4ef;
+    color: rgb(29, 27, 27);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 28px;
+    font-family: monospace;
+    line-height: 28px;
+    width: 110px; 
+}
+  
+
+
+button:hover {
+  background-color: rgb(226, 199, 233);
+}
+
+
+button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+
+
+.connect {
+    display: flex;
+    align-items: center;
+}
+  
+.connect img {
+    width: 20px; 
+    margin-right: 10px; 
+}
+  
+.footer-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0; 
+  font-family: monospace;
+}
+
+.footer-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text img {
+  vertical-align: middle;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-family: monospace;
+  }
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .social-link {
+    margin-bottom: 10px;
+  }
+
+}
