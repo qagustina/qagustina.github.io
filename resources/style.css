@@ -2,12 +2,17 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(51, 51, 51); 
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
   }
   
   .container {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    flex: 1;
   }
   
   .profile-pic {
@@ -32,9 +37,14 @@ body {
 
 .social-buttons {
     display: flex;
-    justify-content: center; 
+    justify-content: space-around; 
 }
-  
+
+.social-buttons a {
+  flex: 1;
+  margin: 0 5px;
+}
+
 .social-link {
     margin-right: 10px;
     text-decoration: none; 
@@ -53,23 +63,20 @@ button {
     height: 28px;
     font-family: monospace;
     line-height: 28px;
-    width: 110px; 
+    width: 110px;
+    margin-left: 15px; 
+    margin-bottom: 10px;
 }
   
-
-
 button:hover {
   background-color: rgb(226, 199, 233);
 }
-
 
 button img {
   width: 20px;
   height: 20px;
   margin-right: 8px;
 }
-
-
 
 .connect {
     display: flex;
@@ -80,14 +87,10 @@ button img {
     width: 20px; 
     margin-right: 10px; 
 }
-  
+/* footer */  
 .footer-container {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   text-align: center;
-  padding: 10px 0; 
+  padding: 20px; 
   font-family: monospace;
 }
 
@@ -106,15 +109,9 @@ button img {
   color: rgb(51, 51, 51);
   margin-left: 5px;
 }
-
+/* screen */
 @media screen and (max-width: 400px) {
-  .footer-container {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    font-family: monospace;
-  }
+
   .social-buttons {
     display: flex;
     flex-direction: column;
