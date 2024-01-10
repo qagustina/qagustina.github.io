@@ -110,7 +110,7 @@ button img {
   margin-left: 5px;
 }
 /* screen */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
 
   .social-buttons {
     display: flex;
