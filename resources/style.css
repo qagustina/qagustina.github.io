@@ -27,7 +27,6 @@ body {
     text-align: justify;
     font-family: monospace;
     font-size: 15px;
-    margin: 10px 10px;
   }
 
   .name{
@@ -82,7 +81,6 @@ button img {
 .connect {
     display: flex;
     align-items: center;
-    margin: 10px 10px;
 }
   
 .connect img {
@@ -124,6 +122,10 @@ button img {
   
   .social-link {
     margin-bottom: 10px;
+  }
+
+  .text, .connect{
+    margin: 10px 10px;
   }
 
 }
