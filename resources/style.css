@@ -37,7 +37,9 @@ body {
 
 .social-buttons {
     display: flex;
-    justify-content: space-around; 
+    /*justify-content: space-around; */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .social-buttons a {
@@ -63,8 +65,9 @@ button {
     height: 28px;
     font-family: monospace;
     line-height: 28px;
-    width: 110px;
-    margin-left: 15px; 
+    width: 100px;
+    margin: 0 5px; 
+    /*margin-left: 15px;*/ 
     margin-bottom: 10px;
 }
   
@@ -87,7 +90,7 @@ button img {
     width: 20px; 
     margin-right: 10px; 
 }
-/* footer */  
+
 .footer-container {
   text-align: center;
   padding: 20px; 
@@ -109,7 +112,7 @@ button img {
   color: rgb(51, 51, 51);
   margin-left: 5px;
 }
-/* screen */
+
 @media screen and (max-width: 768px) {
 
   .social-buttons {
@@ -122,6 +125,10 @@ button img {
   
   .social-link {
     margin-bottom: 10px;
+  }
+
+  .text, .connect {
+    margin: 5px; 
   }
 
 }
