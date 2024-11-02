@@ -54,9 +54,8 @@ body {
   
 button {
     padding: 8px 12px;
-    border: none;
-    background-color: #efe4ef;
-    color: rgb(29, 27, 27);
+    border: 1.5px solid #a2a1a1; 
+    background-color: #ffffff;
     border-radius: 4px;
     cursor: pointer;
     display: flex;
@@ -72,7 +71,8 @@ button {
 }
   
 button:hover {
-  background-color: rgb(226, 199, 233);
+  background-color: rgb(110, 110, 110);
+  color: white; 
 }
 
 button img {
